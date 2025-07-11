@@ -1,3 +1,5 @@
+# file name  --  app.py
+# we have to install ollama api or ollama tool from website ollama.com before running the code
 # pip install streamlit
 import streamlit as st
 from datetime import datetime
