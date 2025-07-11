@@ -50,6 +50,10 @@ col1,col2 = st.columns([1,1])
 with col1:
     clear_button = st.button("clear chat")
 
+if clear_button:
+    st.session_state.messages = []
+    st.rerun()
+
 if send_button and user_input.strip():
     st.session_state.messages.append(
         {
