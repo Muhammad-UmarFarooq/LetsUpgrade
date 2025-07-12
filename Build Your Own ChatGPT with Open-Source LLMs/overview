@@ -1,3 +1,3 @@
 file1  --  Using python running the Ollama phi3 model in local server in terminal.
-file2(app.py), file3(ollama.py),   --  Creating an application interface using python and running the Ollama phi3 model in the application.
+file2(app.py), file3(callollama.py),   --  Creating an application interface using python and running the Ollama phi3 model in the application.
 file4(prompt.py)  --  Here we define prebuilt prompt which will be added to every prompt we give in context of file2 and 3.
